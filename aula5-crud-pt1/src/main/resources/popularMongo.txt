@@ -1,8 +1,7 @@
-db.pessoas.insertMany([
-{"nome":"Bruce","sobrenome":"Banner"},
-{"nome":"Tony","sobrenome":"Stark"},
-{"nome":"King","sobrenome":"T’Challa"},
-{"nome":"Clint","sobrenome":"Barton"},
-{"nome":"Steve","sobrenome":"Rogers"},
-{"nome":"Natasha","sobrenome":"Romanoff"}
+db.produto.insertMany([
+{"codigo":123,"valor":19.9,"quantidadeEstoque":45,"nome":"Camiseta Básica"},
+{"codigo":124,"valor":49.9,"quantidadeEstoque":55,"nome":"Camiseta Regata"},
+{"codigo":125,"valor":39.9,"quantidadeEstoque":65,"nome":"Camiseta Polo"},
+{"codigo":126,"valor":9.9,"quantidadeEstoque":5,"nome":"Moletom"},
+{"codigo":127,"valor":99.9,"quantidadeEstoque":15,"nome":"Sunga"}
 ])
