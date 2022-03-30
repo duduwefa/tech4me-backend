@@ -1,9 +1,16 @@
-package com.example.be_aula7.view.model;
+package br.com.tech4me.pessoasms.compartilhado;
 
-public class PessoaResponse {
+public class PessoaDto {
+    private String id;
     private String nome;
     private String sobrenome;
-
+    
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
     public String getNome() {
         return nome;
     }
@@ -17,8 +24,5 @@ public class PessoaResponse {
         this.sobrenome = sobrenome;
     }
 
-    public String getNomeCompleto() {
-        return String.format("%s %s", nome, sobrenome);
-    }
     
 }
