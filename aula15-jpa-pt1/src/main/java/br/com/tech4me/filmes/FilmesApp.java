@@ -18,6 +18,7 @@ public class FilmesApp implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		
+		loopPrincipal.loop();
+		System.exit(0);
 	}
 }

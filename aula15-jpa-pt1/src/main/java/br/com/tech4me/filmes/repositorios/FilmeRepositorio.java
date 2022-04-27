@@ -9,5 +9,6 @@ import br.com.tech4me.filmes.model.Filme;
 
 @Repository
 public interface FilmeRepositorio extends JpaRepository<Filme, Integer> {
-    
+    List<Filme> findByOrderByTituloAsc();
+    List<Filme> findByTituloContainsIgnoreCaseOrderByTituloAsc(String titulo);
 }

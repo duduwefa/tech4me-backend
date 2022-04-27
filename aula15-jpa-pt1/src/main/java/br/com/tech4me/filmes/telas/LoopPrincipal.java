@@ -37,10 +37,16 @@ public class LoopPrincipal {
 
             switch (opcao) {
                 case 1:
+                    tela = new TelaBuscarFilme();
+                    repositorio = context.getBean(FilmeRepositorio.class);
                     break;
                 case 2:
+                    tela = new TelaCadastrarFilme();
+                    repositorio = context.getBean(FilmeRepositorio.class);
                     break;
                 case 3:
+                    tela = new TelaListarFilmes();
+                    repositorio = context.getBean(FilmeRepositorio.class);
                     break;
                 case 0:
                     System.out.println("Fim do programa!");
