@@ -1,4 +1,4 @@
-db.produto.insertMany([
+db.produtos.insertMany([
 {"codigo":123,"valor":19.9,"quantidadeEstoque":45,"nome":"Camiseta Básica"},
 {"codigo":124,"valor":49.9,"quantidadeEstoque":55,"nome":"Camiseta Regata"},
 {"codigo":125,"valor":39.9,"quantidadeEstoque":65,"nome":"Camiseta Polo"},
